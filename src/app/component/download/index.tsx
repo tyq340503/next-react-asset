@@ -51,9 +51,9 @@ const FileDownload = () => {
 
     return (
         <main>
-            {files.map(file => {
+            {files.map((file, index) => {
                 return (
-                    <section>
+                    <section key={index}>
                         <div style={{marginTop: '10px', display: 'flex'}}>
                             <span style={{width: '300px', marginRight: '10px'}}>{file.fileName}</span>
                             <button onClick={() => downloadFile(file.fileName)}>
