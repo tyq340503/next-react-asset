@@ -28,6 +28,9 @@ export default function Home() {
           <li>
             <Link href="/query">querysql</Link>
           </li>
+          <li>
+            <Link href="/translate">translate</Link>
+          </li>
         </ul>
       </div>
     </main>
